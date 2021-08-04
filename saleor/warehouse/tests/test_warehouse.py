@@ -1,8 +1,7 @@
 import pytest
 from django.db.models import Sum
 
-from saleor.warehouse import WarehouseClickAndCollectOption
-
+from .. import WarehouseClickAndCollectOption
 from ..models import Stock, Warehouse
 
 
